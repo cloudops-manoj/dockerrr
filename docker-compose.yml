@@ -4,11 +4,15 @@ services:
     image: movies:v1
     ports:
       - "98:80"
+    deploy:
+      replicas: 3
     
   recharge:
     image: recharge:v1
     ports:
       - "99:80"
+    deploy:
+      replicas: 3  
         
  
      
