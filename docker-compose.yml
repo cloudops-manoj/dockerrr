@@ -4,20 +4,15 @@ services:
     image: movies:v1
     ports:
       - "87:80"
-    deploy:
-      replicas: 3
-      
-  train:
+    
+  recharge:
     image: train:v1
     ports:
       - "88:80"
-    deploy:
-      replicas: 3  
-      
+        
   dth:
     image: dth:v1
     ports:
       - "89:80"
-    deploy:
-      replicas: 3  
+     
 
