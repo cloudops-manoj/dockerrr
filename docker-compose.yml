@@ -12,4 +12,4 @@ services:
     image: dth:v1
     ports:
       - "83:80"
-~
+
