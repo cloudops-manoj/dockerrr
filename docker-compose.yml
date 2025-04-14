@@ -6,13 +6,10 @@ services:
       - "87:80"
     
   recharge:
-    image: train:v1
+    image: recharge:v1
     ports:
       - "88:80"
         
-  dth:
-    image: dth:v1
-    ports:
-      - "89:80"
+ 
      
 
