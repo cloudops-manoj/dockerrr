@@ -3,12 +3,12 @@ services:
   movies:
     image: movies:v1
     ports:
-      - "87:80"
+      - "93:80"
     
   recharge:
     image: recharge:v1
     ports:
-      - "88:80"
+      - "94:80"
         
  
      
