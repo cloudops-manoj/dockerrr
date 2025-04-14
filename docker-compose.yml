@@ -3,21 +3,21 @@ services:
   movies:
     image: movies:v1
     ports:
-      - "81:80"
+      - "87:80"
     deploy:
       replicas: 3
       
   train:
     image: train:v1
     ports:
-      - "82:80"
+      - "88:80"
     deploy:
       replicas: 3  
       
   dth:
     image: dth:v1
     ports:
-      - "83:80"
+      - "89:80"
     deploy:
       replicas: 3  
 
